@@ -1,0 +1,13 @@
+.titleBlock {
+   display: block;
+}
+
+.titleColor {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 3rem;
+    margin-top: 3rem;
+}

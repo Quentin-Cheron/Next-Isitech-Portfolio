@@ -1,0 +1,56 @@
+.input {
+    border: none;
+    border-bottom: 1px solid #6C40A3;
+    margin-top: 20px;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.label{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+    color: lightgray;
+}
+
+.groupForm {
+    display: grid;
+    gap: 20px;
+}
+
+.groupInput {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 2rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.sendMessage {
+    width: 400px;
+    padding: 2.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.active {
+    transform: translateY(-20px);
+    font-size: 0.8rem;
+    color: #6C40A3;
+    transition: all 0.3s;
+}
+
+.contactUs {
+    display: grid;
+    gap: 20px;
+    padding: 2.5rem;
+    margin-left: 5rem;
+}
